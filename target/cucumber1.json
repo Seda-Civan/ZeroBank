@@ -1,0 +1,555 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 299700000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the home page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154598000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on signin button to access login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_clicks_on_signin_button_to_access_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2572369000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid username and password on login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_enters_valid_username_and_password_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286527000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Account Activity\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountSummaryStepDefinitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-02T06:00:23.265Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1308913000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Account Activity page title should be Zero - Account Activity",
+        "description": "",
+        "id": "account-activity;account-activity-page-title-should-be-zero---account-activity",
+        "after": [
+          {
+            "result": {
+              "duration": 78438000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10610000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should verify that title is \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_should_verify_that_title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account_activity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 318713000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the home page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148413000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on signin button to access login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_clicks_on_signin_button_to_access_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2536214000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid username and password on login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_enters_valid_username_and_password_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263210000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Account Activity\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountSummaryStepDefinitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-02T06:00:28.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 886150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Savings is default option on Accounts drop down",
+        "description": "",
+        "id": "account-activity;savings-is-default-option-on-accounts-drop-down",
+        "after": [
+          {
+            "result": {
+              "duration": 78547000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73842000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should verify that default option is \"Savings\" in the Account drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountActivityStepDefinitions.user_should_verify_that_default_option_is_in_the_Account_drop_down(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account_activity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 316298000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the home page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195017000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on signin button to access login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_clicks_on_signin_button_to_access_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2532822000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid username and password on login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_enters_valid_username_and_password_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277408000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Account Activity\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountSummaryStepDefinitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-02T06:00:32.329Z",
+        "before": [
+          {
+            "result": {
+              "duration": 891791000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Account drop down options",
+        "description": "",
+        "id": "account-activity;account-drop-down-options",
+        "after": [
+          {
+            "result": {
+              "duration": 82081000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99013000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on Account drop down",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountActivityStepDefinitions.user_clicks_on_Account_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111035000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Account drop down should have the following options",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountActivityStepDefinitions.account_drop_down_should_have_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Brokerage"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account_activity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 281561000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the home page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138744000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on signin button to access login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_clicks_on_signin_button_to_access_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2523908000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid username and password on login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.user_enters_valid_username_and_password_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205592000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Account Activity\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountSummaryStepDefinitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-02T06:00:36.840Z",
+        "before": [
+          {
+            "result": {
+              "duration": 911154000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Transactions table column names",
+        "description": "",
+        "id": "account-activity;transactions-table-column-names",
+        "after": [
+          {
+            "result": {
+              "duration": 76875000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3082120000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Transactions table should have the following column names",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountActivityStepDefinitions.transactions_table_should_have_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Description"
+                ]
+              },
+              {
+                "cells": [
+                  "Deposit"
+                ]
+              },
+              {
+                "cells": [
+                  "Withdrawal"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account_activity"
+          },
+          {
+            "name": "@1"
+          }
+        ]
+      }
+    ],
+    "name": "Account Activity",
+    "description": "",
+    "id": "account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": [
+      {
+        "name": "@account_activity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

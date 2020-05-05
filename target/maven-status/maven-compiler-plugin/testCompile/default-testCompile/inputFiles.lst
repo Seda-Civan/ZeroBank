@@ -1,0 +1,12 @@
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/utilities/ConfigurationReader.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/utilities/Driver.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/utilities/BrowserUtils.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/pages/AccountSummaryPage.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/stepdefinitions/LoginStepDefinitions.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/stepdefinitions/Hooks.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/pages/LoginPage.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefinitions.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/stepdefinitions/AccountActivityStepDefinitions.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/runners/CukesRunner.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/pages/AccountActivityPage.java
+/Users/sedacivan/IdeaProjects/zerobank-automation/src/test/java/com/zerobank/pages/BasePage.java
